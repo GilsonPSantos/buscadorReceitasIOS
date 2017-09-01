@@ -17,5 +17,6 @@ class Cardapio: NSObject {
     var tipoCardapio:TipoCardapio?
     var usuarioResponsavel:Usuario?
     var listaMensagem:Array<Mensagem>?
+    
 
 }
