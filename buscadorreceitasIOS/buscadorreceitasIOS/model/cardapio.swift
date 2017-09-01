@@ -8,6 +8,15 @@
 
 import UIKit
 
-class cardapio: NSObject {
+class Cardapio: NSObject {
+    
+    var idCardapio:Int?
+    var nome:String?
+    var dataInclusao:Date?
+    var dataAtualizacao:Date?
+    var ativo:Int?
+    var tipoCardapio:TipoCardapio?
+    var usuarioResponsavel:Usuario?
+    var listaMensagem:Array<Mensagem> = []
 
 }

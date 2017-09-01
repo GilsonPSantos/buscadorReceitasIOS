@@ -13,9 +13,36 @@
 		02D466871F597D4C00E3C302 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02D466851F597D4C00E3C302 /* LaunchScreen.storyboard */; };
 		02D466921F597D4C00E3C302 /* buscadorreceitasIOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D466911F597D4C00E3C302 /* buscadorreceitasIOSTests.swift */; };
 		02D4669D1F597D4C00E3C302 /* buscadorreceitasIOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D4669C1F597D4C00E3C302 /* buscadorreceitasIOSUITests.swift */; };
-		02D466B21F59814300E3C302 /* cardapio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D466B11F59814300E3C302 /* cardapio.swift */; };
-		02D466B31F59814300E3C302 /* cardapio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D466B11F59814300E3C302 /* cardapio.swift */; };
-		02D466B41F59814300E3C302 /* cardapio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D466B11F59814300E3C302 /* cardapio.swift */; };
+		02D466B21F59814300E3C302 /* Cardapio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D466B11F59814300E3C302 /* Cardapio.swift */; };
+		02D466B31F59814300E3C302 /* Cardapio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D466B11F59814300E3C302 /* Cardapio.swift */; };
+		02D466B41F59814300E3C302 /* Cardapio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D466B11F59814300E3C302 /* Cardapio.swift */; };
+		02D466B61F59824000E3C302 /* Favorito.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D466B51F59824000E3C302 /* Favorito.swift */; };
+		02D466B71F59824000E3C302 /* Favorito.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D466B51F59824000E3C302 /* Favorito.swift */; };
+		02D466B81F59824000E3C302 /* Favorito.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D466B51F59824000E3C302 /* Favorito.swift */; };
+		02D466BA1F59824E00E3C302 /* Geladeira.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D466B91F59824E00E3C302 /* Geladeira.swift */; };
+		02D466BB1F59824E00E3C302 /* Geladeira.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D466B91F59824E00E3C302 /* Geladeira.swift */; };
+		02D466BC1F59824E00E3C302 /* Geladeira.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D466B91F59824E00E3C302 /* Geladeira.swift */; };
+		02D466BE1F59825900E3C302 /* Grupo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D466BD1F59825900E3C302 /* Grupo.swift */; };
+		02D466BF1F59825900E3C302 /* Grupo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D466BD1F59825900E3C302 /* Grupo.swift */; };
+		02D466C01F59825900E3C302 /* Grupo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D466BD1F59825900E3C302 /* Grupo.swift */; };
+		02D466C21F59826600E3C302 /* Mensagem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D466C11F59826600E3C302 /* Mensagem.swift */; };
+		02D466C31F59826600E3C302 /* Mensagem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D466C11F59826600E3C302 /* Mensagem.swift */; };
+		02D466C41F59826600E3C302 /* Mensagem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D466C11F59826600E3C302 /* Mensagem.swift */; };
+		02D466C61F5986A300E3C302 /* Produto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D466C51F5986A300E3C302 /* Produto.swift */; };
+		02D466C71F5986A300E3C302 /* Produto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D466C51F5986A300E3C302 /* Produto.swift */; };
+		02D466C81F5986A300E3C302 /* Produto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D466C51F5986A300E3C302 /* Produto.swift */; };
+		02D466CA1F5986AB00E3C302 /* Receita.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D466C91F5986AB00E3C302 /* Receita.swift */; };
+		02D466CB1F5986AB00E3C302 /* Receita.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D466C91F5986AB00E3C302 /* Receita.swift */; };
+		02D466CC1F5986AB00E3C302 /* Receita.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D466C91F5986AB00E3C302 /* Receita.swift */; };
+		02D466CE1F5986BC00E3C302 /* TipoCardapio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D466CD1F5986BC00E3C302 /* TipoCardapio.swift */; };
+		02D466CF1F5986BC00E3C302 /* TipoCardapio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D466CD1F5986BC00E3C302 /* TipoCardapio.swift */; };
+		02D466D01F5986BC00E3C302 /* TipoCardapio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D466CD1F5986BC00E3C302 /* TipoCardapio.swift */; };
+		02D466D21F5986C500E3C302 /* Usuario.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D466D11F5986C500E3C302 /* Usuario.swift */; };
+		02D466D31F5986C500E3C302 /* Usuario.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D466D11F5986C500E3C302 /* Usuario.swift */; };
+		02D466D41F5986C500E3C302 /* Usuario.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D466D11F5986C500E3C302 /* Usuario.swift */; };
+		02D466D61F5986E600E3C302 /* RetornoServico.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D466D51F5986E600E3C302 /* RetornoServico.swift */; };
+		02D466D71F5986E600E3C302 /* RetornoServico.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D466D51F5986E600E3C302 /* RetornoServico.swift */; };
+		02D466D81F5986E600E3C302 /* RetornoServico.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D466D51F5986E600E3C302 /* RetornoServico.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,7 +75,16 @@
 		02D466981F597D4C00E3C302 /* buscadorreceitasIOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = buscadorreceitasIOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		02D4669C1F597D4C00E3C302 /* buscadorreceitasIOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = buscadorreceitasIOSUITests.swift; sourceTree = "<group>"; };
 		02D4669E1F597D4C00E3C302 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		02D466B11F59814300E3C302 /* cardapio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cardapio.swift; sourceTree = "<group>"; };
+		02D466B11F59814300E3C302 /* Cardapio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cardapio.swift; sourceTree = "<group>"; };
+		02D466B51F59824000E3C302 /* Favorito.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Favorito.swift; sourceTree = "<group>"; };
+		02D466B91F59824E00E3C302 /* Geladeira.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Geladeira.swift; sourceTree = "<group>"; };
+		02D466BD1F59825900E3C302 /* Grupo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Grupo.swift; sourceTree = "<group>"; };
+		02D466C11F59826600E3C302 /* Mensagem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mensagem.swift; sourceTree = "<group>"; };
+		02D466C51F5986A300E3C302 /* Produto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Produto.swift; sourceTree = "<group>"; };
+		02D466C91F5986AB00E3C302 /* Receita.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Receita.swift; sourceTree = "<group>"; };
+		02D466CD1F5986BC00E3C302 /* TipoCardapio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TipoCardapio.swift; sourceTree = "<group>"; };
+		02D466D11F5986C500E3C302 /* Usuario.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Usuario.swift; sourceTree = "<group>"; };
+		02D466D51F5986E600E3C302 /* RetornoServico.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RetornoServico.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,7 +170,16 @@
 		02D466AC1F597EE500E3C302 /* model */ = {
 			isa = PBXGroup;
 			children = (
-				02D466B11F59814300E3C302 /* cardapio.swift */,
+				02D466B11F59814300E3C302 /* Cardapio.swift */,
+				02D466B51F59824000E3C302 /* Favorito.swift */,
+				02D466B91F59824E00E3C302 /* Geladeira.swift */,
+				02D466BD1F59825900E3C302 /* Grupo.swift */,
+				02D466C11F59826600E3C302 /* Mensagem.swift */,
+				02D466C51F5986A300E3C302 /* Produto.swift */,
+				02D466C91F5986AB00E3C302 /* Receita.swift */,
+				02D466CD1F5986BC00E3C302 /* TipoCardapio.swift */,
+				02D466D11F5986C500E3C302 /* Usuario.swift */,
+				02D466D51F5986E600E3C302 /* RetornoServico.swift */,
 			);
 			path = model;
 			sourceTree = "<group>";
@@ -300,9 +345,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				02D466B21F59814300E3C302 /* cardapio.swift in Sources */,
+				02D466B21F59814300E3C302 /* Cardapio.swift in Sources */,
 				02D466821F597D4C00E3C302 /* buscadorreceitasIOS.xcdatamodeld in Sources */,
+				02D466CE1F5986BC00E3C302 /* TipoCardapio.swift in Sources */,
+				02D466D61F5986E600E3C302 /* RetornoServico.swift in Sources */,
 				02D4667A1F597D4C00E3C302 /* AppDelegate.swift in Sources */,
+				02D466BE1F59825900E3C302 /* Grupo.swift in Sources */,
+				02D466C21F59826600E3C302 /* Mensagem.swift in Sources */,
+				02D466C61F5986A300E3C302 /* Produto.swift in Sources */,
+				02D466BA1F59824E00E3C302 /* Geladeira.swift in Sources */,
+				02D466CA1F5986AB00E3C302 /* Receita.swift in Sources */,
+				02D466B61F59824000E3C302 /* Favorito.swift in Sources */,
+				02D466D21F5986C500E3C302 /* Usuario.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,8 +364,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				02D466B31F59814300E3C302 /* cardapio.swift in Sources */,
+				02D466C71F5986A300E3C302 /* Produto.swift in Sources */,
+				02D466BB1F59824E00E3C302 /* Geladeira.swift in Sources */,
+				02D466CF1F5986BC00E3C302 /* TipoCardapio.swift in Sources */,
+				02D466B31F59814300E3C302 /* Cardapio.swift in Sources */,
+				02D466D71F5986E600E3C302 /* RetornoServico.swift in Sources */,
+				02D466C31F59826600E3C302 /* Mensagem.swift in Sources */,
+				02D466BF1F59825900E3C302 /* Grupo.swift in Sources */,
+				02D466CB1F5986AB00E3C302 /* Receita.swift in Sources */,
 				02D466921F597D4C00E3C302 /* buscadorreceitasIOSTests.swift in Sources */,
+				02D466D31F5986C500E3C302 /* Usuario.swift in Sources */,
+				02D466B71F59824000E3C302 /* Favorito.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -319,8 +382,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				02D466B41F59814300E3C302 /* cardapio.swift in Sources */,
+				02D466C81F5986A300E3C302 /* Produto.swift in Sources */,
+				02D466BC1F59824E00E3C302 /* Geladeira.swift in Sources */,
+				02D466D01F5986BC00E3C302 /* TipoCardapio.swift in Sources */,
+				02D466B41F59814300E3C302 /* Cardapio.swift in Sources */,
+				02D466D81F5986E600E3C302 /* RetornoServico.swift in Sources */,
+				02D466C41F59826600E3C302 /* Mensagem.swift in Sources */,
+				02D466C01F59825900E3C302 /* Grupo.swift in Sources */,
+				02D466CC1F5986AB00E3C302 /* Receita.swift in Sources */,
 				02D4669D1F597D4C00E3C302 /* buscadorreceitasIOSUITests.swift in Sources */,
+				02D466D41F5986C500E3C302 /* Usuario.swift in Sources */,
+				02D466B81F59824000E3C302 /* Favorito.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
