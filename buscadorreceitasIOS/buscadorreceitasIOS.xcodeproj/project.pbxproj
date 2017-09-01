@@ -40,6 +40,9 @@
 		02D466D61F5986E600E3C302 /* RetornoServico.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D466D51F5986E600E3C302 /* RetornoServico.swift */; };
 		02D466D71F5986E600E3C302 /* RetornoServico.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D466D51F5986E600E3C302 /* RetornoServico.swift */; };
 		02D466D81F5986E600E3C302 /* RetornoServico.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D466D51F5986E600E3C302 /* RetornoServico.swift */; };
+		02D466DA1F598DDE00E3C302 /* Cardapio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D466D91F598DDE00E3C302 /* Cardapio.swift */; };
+		02D466DB1F598DDE00E3C302 /* Cardapio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D466D91F598DDE00E3C302 /* Cardapio.swift */; };
+		02D466DC1F598DDE00E3C302 /* Cardapio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D466D91F598DDE00E3C302 /* Cardapio.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,6 +84,7 @@
 		02D466CD1F5986BC00E3C302 /* TipoCardapio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TipoCardapio.swift; sourceTree = "<group>"; };
 		02D466D11F5986C500E3C302 /* Usuario.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Usuario.swift; sourceTree = "<group>"; };
 		02D466D51F5986E600E3C302 /* RetornoServico.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RetornoServico.swift; sourceTree = "<group>"; };
+		02D466D91F598DDE00E3C302 /* Cardapio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cardapio.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -175,6 +179,7 @@
 				02D466CD1F5986BC00E3C302 /* TipoCardapio.swift */,
 				02D466D11F5986C500E3C302 /* Usuario.swift */,
 				02D466D51F5986E600E3C302 /* RetornoServico.swift */,
+				02D466D91F598DDE00E3C302 /* Cardapio.swift */,
 			);
 			path = model;
 			sourceTree = "<group>";
@@ -344,6 +349,7 @@
 				02D466CE1F5986BC00E3C302 /* TipoCardapio.swift in Sources */,
 				02D466D61F5986E600E3C302 /* RetornoServico.swift in Sources */,
 				02D4667A1F597D4C00E3C302 /* AppDelegate.swift in Sources */,
+				02D466DA1F598DDE00E3C302 /* Cardapio.swift in Sources */,
 				02D466BE1F59825900E3C302 /* Grupo.swift in Sources */,
 				02D466C21F59826600E3C302 /* Mensagem.swift in Sources */,
 				02D466C61F5986A300E3C302 /* Produto.swift in Sources */,
@@ -367,6 +373,7 @@
 				02D466CB1F5986AB00E3C302 /* Receita.swift in Sources */,
 				02D466921F597D4C00E3C302 /* buscadorreceitasIOSTests.swift in Sources */,
 				02D466D31F5986C500E3C302 /* Usuario.swift in Sources */,
+				02D466DB1F598DDE00E3C302 /* Cardapio.swift in Sources */,
 				02D466B71F59824000E3C302 /* Favorito.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -384,6 +391,7 @@
 				02D466CC1F5986AB00E3C302 /* Receita.swift in Sources */,
 				02D4669D1F597D4C00E3C302 /* buscadorreceitasIOSUITests.swift in Sources */,
 				02D466D41F5986C500E3C302 /* Usuario.swift in Sources */,
+				02D466DC1F598DDE00E3C302 /* Cardapio.swift in Sources */,
 				02D466B81F59824000E3C302 /* Favorito.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
