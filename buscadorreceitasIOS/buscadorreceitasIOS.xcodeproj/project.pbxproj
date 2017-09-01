@@ -8,8 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		02D4667A1F597D4C00E3C302 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D466791F597D4C00E3C302 /* AppDelegate.swift */; };
-		02D4667C1F597D4C00E3C302 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D4667B1F597D4C00E3C302 /* ViewController.swift */; };
-		02D4667F1F597D4C00E3C302 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02D4667D1F597D4C00E3C302 /* Main.storyboard */; };
 		02D466821F597D4C00E3C302 /* buscadorreceitasIOS.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 02D466801F597D4C00E3C302 /* buscadorreceitasIOS.xcdatamodeld */; };
 		02D466841F597D4C00E3C302 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02D466831F597D4C00E3C302 /* Assets.xcassets */; };
 		02D466871F597D4C00E3C302 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02D466851F597D4C00E3C302 /* LaunchScreen.storyboard */; };
@@ -37,8 +35,6 @@
 /* Begin PBXFileReference section */
 		02D466761F597D4C00E3C302 /* buscadorreceitasIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = buscadorreceitasIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		02D466791F597D4C00E3C302 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		02D4667B1F597D4C00E3C302 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		02D4667E1F597D4C00E3C302 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		02D466811F597D4C00E3C302 /* buscadorreceitasIOS.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = buscadorreceitasIOS.xcdatamodel; sourceTree = "<group>"; };
 		02D466831F597D4C00E3C302 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		02D466861F597D4C00E3C302 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -99,9 +95,12 @@
 		02D466781F597D4C00E3C302 /* buscadorreceitasIOS */ = {
 			isa = PBXGroup;
 			children = (
+				02D466B01F597F1100E3C302 /* business */,
+				02D466AF1F597F0700E3C302 /* service */,
+				02D466AE1F597EFE00E3C302 /* controller */,
+				02D466AD1F597EF000E3C302 /* view */,
+				02D466AC1F597EE500E3C302 /* model */,
 				02D466791F597D4C00E3C302 /* AppDelegate.swift */,
-				02D4667B1F597D4C00E3C302 /* ViewController.swift */,
-				02D4667D1F597D4C00E3C302 /* Main.storyboard */,
 				02D466831F597D4C00E3C302 /* Assets.xcassets */,
 				02D466851F597D4C00E3C302 /* LaunchScreen.storyboard */,
 				02D466881F597D4C00E3C302 /* Info.plist */,
@@ -126,6 +125,41 @@
 				02D4669E1F597D4C00E3C302 /* Info.plist */,
 			);
 			path = buscadorreceitasIOSUITests;
+			sourceTree = "<group>";
+		};
+		02D466AC1F597EE500E3C302 /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		02D466AD1F597EF000E3C302 /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		02D466AE1F597EFE00E3C302 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		02D466AF1F597F0700E3C302 /* service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = service;
+			sourceTree = "<group>";
+		};
+		02D466B01F597F1100E3C302 /* business */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = business;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -237,7 +271,6 @@
 			files = (
 				02D466871F597D4C00E3C302 /* LaunchScreen.storyboard in Resources */,
 				02D466841F597D4C00E3C302 /* Assets.xcassets in Resources */,
-				02D4667F1F597D4C00E3C302 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,7 +296,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				02D466821F597D4C00E3C302 /* buscadorreceitasIOS.xcdatamodeld in Sources */,
-				02D4667C1F597D4C00E3C302 /* ViewController.swift in Sources */,
 				02D4667A1F597D4C00E3C302 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -300,14 +332,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		02D4667D1F597D4C00E3C302 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				02D4667E1F597D4C00E3C302 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		02D466851F597D4C00E3C302 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
