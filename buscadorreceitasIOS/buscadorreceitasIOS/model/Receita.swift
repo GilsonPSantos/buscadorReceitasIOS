@@ -9,5 +9,10 @@
 import UIKit
 
 class Receita: NSObject {
+    
+    var cardapio:Cardapio?
+    var produto:Produto?
+    var grauRelevancia:Int?
+    var quantidade:Int?
 
 }

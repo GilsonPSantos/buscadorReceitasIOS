@@ -9,5 +9,10 @@
 import UIKit
 
 class Produto: NSObject {
+    
+    var idProduto:Int?
+    var nome:String?
+    var codigoBarras:String?
+    var grupo:Grupo?
 
 }
