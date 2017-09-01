@@ -13,6 +13,9 @@
 		02D466871F597D4C00E3C302 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02D466851F597D4C00E3C302 /* LaunchScreen.storyboard */; };
 		02D466921F597D4C00E3C302 /* buscadorreceitasIOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D466911F597D4C00E3C302 /* buscadorreceitasIOSTests.swift */; };
 		02D4669D1F597D4C00E3C302 /* buscadorreceitasIOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D4669C1F597D4C00E3C302 /* buscadorreceitasIOSUITests.swift */; };
+		02D466B21F59814300E3C302 /* cardapio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D466B11F59814300E3C302 /* cardapio.swift */; };
+		02D466B31F59814300E3C302 /* cardapio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D466B11F59814300E3C302 /* cardapio.swift */; };
+		02D466B41F59814300E3C302 /* cardapio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D466B11F59814300E3C302 /* cardapio.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +48,7 @@
 		02D466981F597D4C00E3C302 /* buscadorreceitasIOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = buscadorreceitasIOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		02D4669C1F597D4C00E3C302 /* buscadorreceitasIOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = buscadorreceitasIOSUITests.swift; sourceTree = "<group>"; };
 		02D4669E1F597D4C00E3C302 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02D466B11F59814300E3C302 /* cardapio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cardapio.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +134,7 @@
 		02D466AC1F597EE500E3C302 /* model */ = {
 			isa = PBXGroup;
 			children = (
+				02D466B11F59814300E3C302 /* cardapio.swift */,
 			);
 			path = model;
 			sourceTree = "<group>";
@@ -295,6 +300,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02D466B21F59814300E3C302 /* cardapio.swift in Sources */,
 				02D466821F597D4C00E3C302 /* buscadorreceitasIOS.xcdatamodeld in Sources */,
 				02D4667A1F597D4C00E3C302 /* AppDelegate.swift in Sources */,
 			);
@@ -304,6 +310,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02D466B31F59814300E3C302 /* cardapio.swift in Sources */,
 				02D466921F597D4C00E3C302 /* buscadorreceitasIOSTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -312,6 +319,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02D466B41F59814300E3C302 /* cardapio.swift in Sources */,
 				02D4669D1F597D4C00E3C302 /* buscadorreceitasIOSUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
