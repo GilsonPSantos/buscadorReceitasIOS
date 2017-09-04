@@ -43,6 +43,18 @@
 		02D466DA1F598DDE00E3C302 /* Cardapio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D466D91F598DDE00E3C302 /* Cardapio.swift */; };
 		02D466DB1F598DDE00E3C302 /* Cardapio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D466D91F598DDE00E3C302 /* Cardapio.swift */; };
 		02D466DC1F598DDE00E3C302 /* Cardapio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D466D91F598DDE00E3C302 /* Cardapio.swift */; };
+		02D466DE1F5D6A9300E3C302 /* inicio.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02D466DD1F5D6A9300E3C302 /* inicio.storyboard */; };
+		02D466DF1F5D6A9300E3C302 /* inicio.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02D466DD1F5D6A9300E3C302 /* inicio.storyboard */; };
+		02D466E01F5D6A9300E3C302 /* inicio.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02D466DD1F5D6A9300E3C302 /* inicio.storyboard */; };
+		02D466E21F5D6AD400E3C302 /* InicioTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D466E11F5D6AD400E3C302 /* InicioTableViewController.swift */; };
+		02D466E31F5D6AD400E3C302 /* InicioTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D466E11F5D6AD400E3C302 /* InicioTableViewController.swift */; };
+		02D466E41F5D6AD400E3C302 /* InicioTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D466E11F5D6AD400E3C302 /* InicioTableViewController.swift */; };
+		02D466E91F5D6EED00E3C302 /* abasTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D466E71F5D6EED00E3C302 /* abasTableViewCell.swift */; };
+		02D466EA1F5D6EED00E3C302 /* abasTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D466E71F5D6EED00E3C302 /* abasTableViewCell.swift */; };
+		02D466EB1F5D6EED00E3C302 /* abasTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D466E71F5D6EED00E3C302 /* abasTableViewCell.swift */; };
+		02D466EC1F5D6EED00E3C302 /* abasTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 02D466E81F5D6EED00E3C302 /* abasTableViewCell.xib */; };
+		02D466ED1F5D6EED00E3C302 /* abasTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 02D466E81F5D6EED00E3C302 /* abasTableViewCell.xib */; };
+		02D466EE1F5D6EED00E3C302 /* abasTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 02D466E81F5D6EED00E3C302 /* abasTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -85,6 +97,10 @@
 		02D466D11F5986C500E3C302 /* Usuario.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Usuario.swift; sourceTree = "<group>"; };
 		02D466D51F5986E600E3C302 /* RetornoServico.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RetornoServico.swift; sourceTree = "<group>"; };
 		02D466D91F598DDE00E3C302 /* Cardapio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cardapio.swift; sourceTree = "<group>"; };
+		02D466DD1F5D6A9300E3C302 /* inicio.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = inicio.storyboard; sourceTree = "<group>"; };
+		02D466E11F5D6AD400E3C302 /* InicioTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InicioTableViewController.swift; sourceTree = "<group>"; };
+		02D466E71F5D6EED00E3C302 /* abasTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = abasTableViewCell.swift; sourceTree = "<group>"; };
+		02D466E81F5D6EED00E3C302 /* abasTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = abasTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -187,6 +203,8 @@
 		02D466AD1F597EF000E3C302 /* view */ = {
 			isa = PBXGroup;
 			children = (
+				02D466E51F5D6B4100E3C302 /* xib's */,
+				02D466DD1F5D6A9300E3C302 /* inicio.storyboard */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -194,6 +212,7 @@
 		02D466AE1F597EFE00E3C302 /* controller */ = {
 			isa = PBXGroup;
 			children = (
+				02D466E11F5D6AD400E3C302 /* InicioTableViewController.swift */,
 			);
 			path = controller;
 			sourceTree = "<group>";
@@ -210,6 +229,23 @@
 			children = (
 			);
 			path = business;
+			sourceTree = "<group>";
+		};
+		02D466E51F5D6B4100E3C302 /* xib's */ = {
+			isa = PBXGroup;
+			children = (
+				02D466E61F5D6CBB00E3C302 /* abas */,
+			);
+			path = "xib's";
+			sourceTree = "<group>";
+		};
+		02D466E61F5D6CBB00E3C302 /* abas */ = {
+			isa = PBXGroup;
+			children = (
+				02D466E71F5D6EED00E3C302 /* abasTableViewCell.swift */,
+				02D466E81F5D6EED00E3C302 /* abasTableViewCell.xib */,
+			);
+			path = abas;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -319,8 +355,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02D466EC1F5D6EED00E3C302 /* abasTableViewCell.xib in Resources */,
 				02D466871F597D4C00E3C302 /* LaunchScreen.storyboard in Resources */,
 				02D466841F597D4C00E3C302 /* Assets.xcassets in Resources */,
+				02D466DE1F5D6A9300E3C302 /* inicio.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -328,6 +366,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02D466ED1F5D6EED00E3C302 /* abasTableViewCell.xib in Resources */,
+				02D466DF1F5D6A9300E3C302 /* inicio.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -335,6 +375,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02D466EE1F5D6EED00E3C302 /* abasTableViewCell.xib in Resources */,
+				02D466E01F5D6A9300E3C302 /* inicio.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -346,6 +388,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				02D466821F597D4C00E3C302 /* buscadorreceitasIOS.xcdatamodeld in Sources */,
+				02D466E21F5D6AD400E3C302 /* InicioTableViewController.swift in Sources */,
 				02D466CE1F5986BC00E3C302 /* TipoCardapio.swift in Sources */,
 				02D466D61F5986E600E3C302 /* RetornoServico.swift in Sources */,
 				02D4667A1F597D4C00E3C302 /* AppDelegate.swift in Sources */,
@@ -354,6 +397,7 @@
 				02D466C21F59826600E3C302 /* Mensagem.swift in Sources */,
 				02D466C61F5986A300E3C302 /* Produto.swift in Sources */,
 				02D466BA1F59824E00E3C302 /* Geladeira.swift in Sources */,
+				02D466E91F5D6EED00E3C302 /* abasTableViewCell.swift in Sources */,
 				02D466CA1F5986AB00E3C302 /* Receita.swift in Sources */,
 				02D466B61F59824000E3C302 /* Favorito.swift in Sources */,
 				02D466D21F5986C500E3C302 /* Usuario.swift in Sources */,
@@ -368,6 +412,8 @@
 				02D466BB1F59824E00E3C302 /* Geladeira.swift in Sources */,
 				02D466CF1F5986BC00E3C302 /* TipoCardapio.swift in Sources */,
 				02D466D71F5986E600E3C302 /* RetornoServico.swift in Sources */,
+				02D466EA1F5D6EED00E3C302 /* abasTableViewCell.swift in Sources */,
+				02D466E31F5D6AD400E3C302 /* InicioTableViewController.swift in Sources */,
 				02D466C31F59826600E3C302 /* Mensagem.swift in Sources */,
 				02D466BF1F59825900E3C302 /* Grupo.swift in Sources */,
 				02D466CB1F5986AB00E3C302 /* Receita.swift in Sources */,
@@ -386,6 +432,8 @@
 				02D466BC1F59824E00E3C302 /* Geladeira.swift in Sources */,
 				02D466D01F5986BC00E3C302 /* TipoCardapio.swift in Sources */,
 				02D466D81F5986E600E3C302 /* RetornoServico.swift in Sources */,
+				02D466EB1F5D6EED00E3C302 /* abasTableViewCell.swift in Sources */,
+				02D466E41F5D6AD400E3C302 /* InicioTableViewController.swift in Sources */,
 				02D466C41F59826600E3C302 /* Mensagem.swift in Sources */,
 				02D466C01F59825900E3C302 /* Grupo.swift in Sources */,
 				02D466CC1F5986AB00E3C302 /* Receita.swift in Sources */,
@@ -613,6 +661,7 @@
 				02D466A31F597D4C00E3C302 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		02D466A41F597D4C00E3C302 /* Build configuration list for PBXNativeTarget "buscadorreceitasIOSTests" */ = {
 			isa = XCConfigurationList;
@@ -621,6 +670,7 @@
 				02D466A61F597D4C00E3C302 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		02D466A71F597D4C00E3C302 /* Build configuration list for PBXNativeTarget "buscadorreceitasIOSUITests" */ = {
 			isa = XCConfigurationList;
@@ -629,6 +679,7 @@
 				02D466A91F597D4C00E3C302 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
