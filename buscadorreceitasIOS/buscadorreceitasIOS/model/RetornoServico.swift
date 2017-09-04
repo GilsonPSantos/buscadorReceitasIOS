@@ -10,6 +10,7 @@ import UIKit
 
 class RetornoServico: NSObject {
     
-    
+    var codigo:Int?
+    var mensagem:Array<String>?
 
 }

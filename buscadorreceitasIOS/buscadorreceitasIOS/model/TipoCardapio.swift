@@ -9,5 +9,9 @@
 import UIKit
 
 class TipoCardapio: NSObject {
+    
+    var idTipoCardapio:Int?
+    var nomeTipoCardapio:String?
+    var listaCardapio:Array<Cardapio>?
 
 }
