@@ -57,6 +57,30 @@
 		02D4670C1F5DE9F300E3C302 /* FavoritosTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 02D467061F5DE9F300E3C302 /* FavoritosTableViewCell.xib */; };
 		02D4670F1F5DF3CE00E3C302 /* AbasTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D4670D1F5DF3CE00E3C302 /* AbasTableViewCell.swift */; };
 		02D467101F5DF3CE00E3C302 /* AbasTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 02D4670E1F5DF3CE00E3C302 /* AbasTableViewCell.xib */; };
+		02D467171F5DF4C900E3C302 /* buscadorreceitasIOS.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 02D466801F597D4C00E3C302 /* buscadorreceitasIOS.xcdatamodeld */; };
+		02D467181F5DF4C900E3C302 /* InicioTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D466E11F5D6AD400E3C302 /* InicioTableViewController.swift */; };
+		02D467191F5DF4C900E3C302 /* TipoCardapio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D466CD1F5986BC00E3C302 /* TipoCardapio.swift */; };
+		02D4671A1F5DF4C900E3C302 /* RetornoServico.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D466D51F5986E600E3C302 /* RetornoServico.swift */; };
+		02D4671B1F5DF4C900E3C302 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D466791F597D4C00E3C302 /* AppDelegate.swift */; };
+		02D4671C1F5DF4C900E3C302 /* Cardapio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D466D91F598DDE00E3C302 /* Cardapio.swift */; };
+		02D4671D1F5DF4C900E3C302 /* Grupo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D466BD1F59825900E3C302 /* Grupo.swift */; };
+		02D4671E1F5DF4C900E3C302 /* Mensagem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D466C11F59826600E3C302 /* Mensagem.swift */; };
+		02D4671F1F5DF4C900E3C302 /* FavoritosTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D467051F5DE9F300E3C302 /* FavoritosTableViewCell.swift */; };
+		02D467201F5DF4C900E3C302 /* Produto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D466C51F5986A300E3C302 /* Produto.swift */; };
+		02D467211F5DF4C900E3C302 /* Geladeira.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D466B91F59824E00E3C302 /* Geladeira.swift */; };
+		02D467221F5DF4C900E3C302 /* Receita.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D466C91F5986AB00E3C302 /* Receita.swift */; };
+		02D467231F5DF4C900E3C302 /* Favorito.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D466B51F59824000E3C302 /* Favorito.swift */; };
+		02D467241F5DF4C900E3C302 /* Usuario.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D466D11F5986C500E3C302 /* Usuario.swift */; };
+		02D467251F5DF4C900E3C302 /* AbasTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D4670D1F5DF3CE00E3C302 /* AbasTableViewCell.swift */; };
+		02D467281F5DF4C900E3C302 /* FavoritosTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 02D467061F5DE9F300E3C302 /* FavoritosTableViewCell.xib */; };
+		02D467291F5DF4C900E3C302 /* AbasTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 02D4670E1F5DF3CE00E3C302 /* AbasTableViewCell.xib */; };
+		02D4672A1F5DF4C900E3C302 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02D466851F597D4C00E3C302 /* LaunchScreen.storyboard */; };
+		02D4672B1F5DF4C900E3C302 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02D466831F597D4C00E3C302 /* Assets.xcassets */; };
+		02D4672C1F5DF4C900E3C302 /* inicio.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02D466DD1F5D6A9300E3C302 /* inicio.storyboard */; };
+		02D467321F5DF50700E3C302 /* AbasTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 02D4670E1F5DF3CE00E3C302 /* AbasTableViewCell.xib */; };
+		02D467331F5DF50700E3C302 /* AbasTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 02D4670E1F5DF3CE00E3C302 /* AbasTableViewCell.xib */; };
+		02D467341F5DF50B00E3C302 /* AbasTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D4670D1F5DF3CE00E3C302 /* AbasTableViewCell.swift */; };
+		02D467351F5DF50C00E3C302 /* AbasTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D4670D1F5DF3CE00E3C302 /* AbasTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -105,6 +129,8 @@
 		02D467061F5DE9F300E3C302 /* FavoritosTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FavoritosTableViewCell.xib; sourceTree = "<group>"; };
 		02D4670D1F5DF3CE00E3C302 /* AbasTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AbasTableViewCell.swift; sourceTree = "<group>"; };
 		02D4670E1F5DF3CE00E3C302 /* AbasTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AbasTableViewCell.xib; sourceTree = "<group>"; };
+		02D467301F5DF4C900E3C302 /* buscadorreceitasIOS_ Teste.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "buscadorreceitasIOS_ Teste.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		02D467311F5DF4C900E3C302 /* buscadorreceitasIOS copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "buscadorreceitasIOS copy-Info.plist"; path = "/Users/gilsonsantos/Documents/Gilson/buscadorReceitas/buscadorReceitasIOS/buscadorreceitasIOS/buscadorreceitasIOS copy-Info.plist"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,6 +155,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		02D467261F5DF4C900E3C302 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -139,6 +172,7 @@
 				02D466901F597D4C00E3C302 /* buscadorreceitasIOSTests */,
 				02D4669B1F597D4C00E3C302 /* buscadorreceitasIOSUITests */,
 				02D466771F597D4C00E3C302 /* Products */,
+				02D467311F5DF4C900E3C302 /* buscadorreceitasIOS copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -148,6 +182,7 @@
 				02D466761F597D4C00E3C302 /* buscadorreceitasIOS.app */,
 				02D4668D1F597D4C00E3C302 /* buscadorreceitasIOSTests.xctest */,
 				02D466981F597D4C00E3C302 /* buscadorreceitasIOSUITests.xctest */,
+				02D467301F5DF4C900E3C302 /* buscadorreceitasIOS_ Teste.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -326,6 +361,23 @@
 			productReference = 02D466981F597D4C00E3C302 /* buscadorreceitasIOSUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		02D467151F5DF4C900E3C302 /* buscadorreceitasIOS_ Teste */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02D4672D1F5DF4C900E3C302 /* Build configuration list for PBXNativeTarget "buscadorreceitasIOS_ Teste" */;
+			buildPhases = (
+				02D467161F5DF4C900E3C302 /* Sources */,
+				02D467261F5DF4C900E3C302 /* Frameworks */,
+				02D467271F5DF4C900E3C302 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "buscadorreceitasIOS_ Teste";
+			productName = buscadorreceitasIOS;
+			productReference = 02D467301F5DF4C900E3C302 /* buscadorreceitasIOS_ Teste.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -368,6 +420,7 @@
 				02D466751F597D4C00E3C302 /* buscadorreceitasIOS */,
 				02D4668C1F597D4C00E3C302 /* buscadorreceitasIOSTests */,
 				02D466971F597D4C00E3C302 /* buscadorreceitasIOSUITests */,
+				02D467151F5DF4C900E3C302 /* buscadorreceitasIOS_ Teste */,
 			);
 		};
 /* End PBXProject section */
@@ -391,6 +444,7 @@
 			files = (
 				02D4670B1F5DE9F300E3C302 /* FavoritosTableViewCell.xib in Resources */,
 				02D466DF1F5D6A9300E3C302 /* inicio.storyboard in Resources */,
+				02D467321F5DF50700E3C302 /* AbasTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -400,6 +454,19 @@
 			files = (
 				02D4670C1F5DE9F300E3C302 /* FavoritosTableViewCell.xib in Resources */,
 				02D466E01F5D6A9300E3C302 /* inicio.storyboard in Resources */,
+				02D467331F5DF50700E3C302 /* AbasTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02D467271F5DF4C900E3C302 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02D467281F5DF4C900E3C302 /* FavoritosTableViewCell.xib in Resources */,
+				02D467291F5DF4C900E3C302 /* AbasTableViewCell.xib in Resources */,
+				02D4672A1F5DF4C900E3C302 /* LaunchScreen.storyboard in Resources */,
+				02D4672B1F5DF4C900E3C302 /* Assets.xcassets in Resources */,
+				02D4672C1F5DF4C900E3C302 /* inicio.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -444,6 +511,7 @@
 				02D466921F597D4C00E3C302 /* buscadorreceitasIOSTests.swift in Sources */,
 				02D466D31F5986C500E3C302 /* Usuario.swift in Sources */,
 				02D466DB1F598DDE00E3C302 /* Cardapio.swift in Sources */,
+				02D467341F5DF50B00E3C302 /* AbasTableViewCell.swift in Sources */,
 				02D466B71F59824000E3C302 /* Favorito.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -464,7 +532,30 @@
 				02D4669D1F597D4C00E3C302 /* buscadorreceitasIOSUITests.swift in Sources */,
 				02D466D41F5986C500E3C302 /* Usuario.swift in Sources */,
 				02D466DC1F598DDE00E3C302 /* Cardapio.swift in Sources */,
+				02D467351F5DF50C00E3C302 /* AbasTableViewCell.swift in Sources */,
 				02D466B81F59824000E3C302 /* Favorito.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02D467161F5DF4C900E3C302 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02D467171F5DF4C900E3C302 /* buscadorreceitasIOS.xcdatamodeld in Sources */,
+				02D467181F5DF4C900E3C302 /* InicioTableViewController.swift in Sources */,
+				02D467191F5DF4C900E3C302 /* TipoCardapio.swift in Sources */,
+				02D4671A1F5DF4C900E3C302 /* RetornoServico.swift in Sources */,
+				02D4671B1F5DF4C900E3C302 /* AppDelegate.swift in Sources */,
+				02D4671C1F5DF4C900E3C302 /* Cardapio.swift in Sources */,
+				02D4671D1F5DF4C900E3C302 /* Grupo.swift in Sources */,
+				02D4671E1F5DF4C900E3C302 /* Mensagem.swift in Sources */,
+				02D4671F1F5DF4C900E3C302 /* FavoritosTableViewCell.swift in Sources */,
+				02D467201F5DF4C900E3C302 /* Produto.swift in Sources */,
+				02D467211F5DF4C900E3C302 /* Geladeira.swift in Sources */,
+				02D467221F5DF4C900E3C302 /* Receita.swift in Sources */,
+				02D467231F5DF4C900E3C302 /* Favorito.swift in Sources */,
+				02D467241F5DF4C900E3C302 /* Usuario.swift in Sources */,
+				02D467251F5DF4C900E3C302 /* AbasTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -666,6 +757,30 @@
 			};
 			name = Release;
 		};
+		02D4672E1F5DF4C900E3C302 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "buscadorreceitasIOS copy-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.buscadorreceitas.buscadorreceitasIOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		02D4672F1F5DF4C900E3C302 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "buscadorreceitasIOS copy-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.buscadorreceitas.buscadorreceitasIOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -701,6 +816,15 @@
 			buildConfigurations = (
 				02D466A81F597D4C00E3C302 /* Debug */,
 				02D466A91F597D4C00E3C302 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		02D4672D1F5DF4C900E3C302 /* Build configuration list for PBXNativeTarget "buscadorreceitasIOS_ Teste" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02D4672E1F5DF4C900E3C302 /* Debug */,
+				02D4672F1F5DF4C900E3C302 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

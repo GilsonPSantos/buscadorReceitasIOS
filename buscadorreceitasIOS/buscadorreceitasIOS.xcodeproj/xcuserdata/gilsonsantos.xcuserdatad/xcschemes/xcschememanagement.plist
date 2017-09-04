@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>buscadorreceitasIOS copy.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 		<key>buscadorreceitasIOS.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -23,6 +28,11 @@
 			<true/>
 		</dict>
 		<key>02D466971F597D4C00E3C302</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>02D467151F5DF4C900E3C302</key>
 		<dict>
 			<key>primary</key>
 			<true/>
