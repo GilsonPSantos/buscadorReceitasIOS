@@ -24,15 +24,9 @@ class abasTableViewCell: UITableViewCell {
 
     }
     
-    @IBAction func abaFavoritos(_ sender: Any) {
-        self.progressView.progress = 0.33
-    }
     
-    @IBAction func abaBuscar(_ sender: Any) {
-        self.progressView.progress = 0.66
-    }
     
-    @IBAction func abaMinhasReceitas(_ sender: Any) {
-        self.progressView.progress = 0.99
-    }
+    
+    
+
 }

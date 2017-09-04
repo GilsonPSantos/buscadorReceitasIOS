@@ -31,12 +31,24 @@ class InicioTableViewController: UITableViewController {
         // #warning Incomplete implementation, return the number of rows
         return 1
     }
-
     
+    override func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
+        return 50.0
+    }
+
+    override func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
+        let cell = tableView.dequeueReusableCell(withIdentifier: "abasTableViewCell") as! abasTableViewCell
+        return cell
+
+    }
+
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-       let cell = tableView.dequeueReusableCell(withIdentifier: "abasTableViewCell", for: indexPath) as! abasTableViewCell
+       //let cell = tableView.dequeueReusableCell(withIdentifier: "abasTableViewCell", for: indexPath) as! abasTableViewCell
+        let cell = UITableViewCell()
+        cell.textLabel?.text = "teste"
        return cell
     }
+ 
     
     func registerNib(){
         let nibAbas = UINib(nibName: "abasTableViewCell", bundle: nil)

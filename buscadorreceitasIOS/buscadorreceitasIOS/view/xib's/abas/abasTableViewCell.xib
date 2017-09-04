@@ -18,63 +18,67 @@
                 <rect key="frame" x="0.0" y="0.0" width="320" height="59"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="obo-Ry-FEB">
-                        <rect key="frame" x="0.0" y="0.0" width="106" height="50"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8eD-7m-I9T">
-                                <rect key="frame" x="0.0" y="0.0" width="106" height="50"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="1" green="0.54706622650000003" blue="0.072929974379999998" alpha="0.5" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" title="Favoritos">
-                                    <color key="titleColor" red="1" green="0.028078071959999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
-                                <connections>
-                                    <action selector="abaFavoritos:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="8tq-me-CrR"/>
-                                </connections>
-                            </button>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <tabBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ay5-7s-AY2">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <items>
+                            <tabBarItem title="Favoritos" image="icon-favorito" id="560-NR-HVu"/>
+                            <tabBarItem title="Minhas Receitas" image="icon-receitas" id="9dl-2J-JRr"/>
+                            <tabBarItem title="Buscar" image="icon-search" id="SLb-Mn-kV5"/>
+                        </items>
+                        <color key="barTintColor" red="1" green="0.76714569291258172" blue="0.074509803921568626" alpha="0.66000000000000003" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="selectedImageTintColor" red="1" green="0.028078071959999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </tabBar>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ztQ-7S-DfL">
+                        <rect key="frame" x="0.0" y="49" width="106" height="10"/>
+                        <color key="backgroundColor" red="0.81960784310000001" green="0.14220473350000001" blue="0.02033483967" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="106" id="U4I-Vf-tEy"/>
+                            <constraint firstAttribute="height" constant="10" id="Wim-99-36X"/>
+                        </constraints>
                     </view>
-                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9YB-sg-gTD">
-                        <rect key="frame" x="107" y="-1" width="106" height="50"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rxy-21-PWr">
-                                <rect key="frame" x="0.0" y="0.0" width="106" height="50"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="1" green="0.54706622650000003" blue="0.072929974379999998" alpha="0.5" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" title="Buscar">
-                                    <color key="titleColor" red="0.77199023960000002" green="0.78805184360000002" blue="0.80463957789999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
-                                <connections>
-                                    <action selector="abaBuscar:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="efv-w8-Zjy"/>
-                                </connections>
-                            </button>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FdM-8G-NNn">
+                        <rect key="frame" x="107" y="49" width="106" height="10"/>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="10" id="ZDj-YO-4mo"/>
+                            <constraint firstAttribute="width" constant="106" id="heH-w3-tFU"/>
+                        </constraints>
                     </view>
-                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="LpY-xb-1eE">
-                        <rect key="frame" x="214" y="-1" width="106" height="50"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="onB-X9-9w2">
-                                <rect key="frame" x="0.0" y="0.0" width="106" height="50"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="1" green="0.54706622650000003" blue="0.072929974379999998" alpha="0.5" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" title="Minhas Receitas"/>
-                                <connections>
-                                    <action selector="abaMinhasReceitas:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="W1x-nb-r7c"/>
-                                </connections>
-                            </button>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DVy-J4-W3c">
+                        <rect key="frame" x="214" y="49" width="106" height="10"/>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="10" id="oTY-X7-6jx"/>
+                            <constraint firstAttribute="width" constant="106" id="yd0-ZQ-Ngx"/>
+                        </constraints>
                     </view>
                 </subviews>
-                <color key="backgroundColor" red="1" green="0.54706622650000003" blue="0.072929974379999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                <constraints>
+                    <constraint firstItem="FdM-8G-NNn" firstAttribute="leading" secondItem="ztQ-7S-DfL" secondAttribute="trailing" constant="1" id="2zH-R7-Sy7"/>
+                    <constraint firstAttribute="trailing" secondItem="DVy-J4-W3c" secondAttribute="trailing" id="4nZ-2C-tC8"/>
+                    <constraint firstItem="Ay5-7s-AY2" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="5zl-IH-NLk"/>
+                    <constraint firstAttribute="trailing" secondItem="Ay5-7s-AY2" secondAttribute="trailing" id="6FL-nn-u3h"/>
+                    <constraint firstItem="DVy-J4-W3c" firstAttribute="top" secondItem="Ay5-7s-AY2" secondAttribute="bottom" id="9dA-x3-rzE"/>
+                    <constraint firstItem="FdM-8G-NNn" firstAttribute="top" secondItem="Ay5-7s-AY2" secondAttribute="bottom" id="9k7-eH-xBa"/>
+                    <constraint firstItem="FdM-8G-NNn" firstAttribute="top" secondItem="Ay5-7s-AY2" secondAttribute="bottom" id="Bz0-Me-kEp"/>
+                    <constraint firstAttribute="bottom" secondItem="ztQ-7S-DfL" secondAttribute="bottom" id="Iqi-yj-tjS"/>
+                    <constraint firstItem="Ay5-7s-AY2" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="KNr-pu-Wwh"/>
+                    <constraint firstItem="DVy-J4-W3c" firstAttribute="leading" secondItem="FdM-8G-NNn" secondAttribute="trailing" constant="1" id="PZo-A6-3M4"/>
+                    <constraint firstItem="DVy-J4-W3c" firstAttribute="leading" secondItem="FdM-8G-NNn" secondAttribute="trailing" constant="1" id="axv-nY-d57"/>
+                    <constraint firstAttribute="bottom" secondItem="DVy-J4-W3c" secondAttribute="bottom" id="fvI-pD-k4O"/>
+                    <constraint firstItem="FdM-8G-NNn" firstAttribute="leading" secondItem="ztQ-7S-DfL" secondAttribute="trailing" constant="1" id="tot-fE-sZ0"/>
+                    <constraint firstAttribute="bottom" secondItem="FdM-8G-NNn" secondAttribute="bottom" id="uLf-6o-kzd"/>
+                    <constraint firstItem="ztQ-7S-DfL" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="udA-Q3-9Wr"/>
+                    <constraint firstItem="ztQ-7S-DfL" firstAttribute="top" secondItem="Ay5-7s-AY2" secondAttribute="bottom" id="vai-15-RQj"/>
+                </constraints>
             </tableViewCellContentView>
-            <color key="backgroundColor" red="0.99922668147208127" green="0.39577428834664913" blue="0.049516785191877841" alpha="0.16759417808219179" colorSpace="custom" customColorSpace="sRGB"/>
             <point key="canvasLocation" x="22" y="22"/>
         </tableViewCell>
     </objects>
+    <resources>
+        <image name="icon-favorito" width="16" height="16"/>
+        <image name="icon-receitas" width="16" height="16"/>
+        <image name="icon-search" width="16" height="16"/>
+    </resources>
 </document>

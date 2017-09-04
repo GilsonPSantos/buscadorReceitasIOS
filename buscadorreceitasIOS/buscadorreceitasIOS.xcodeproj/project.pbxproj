@@ -151,6 +151,7 @@
 		02D466781F597D4C00E3C302 /* buscadorreceitasIOS */ = {
 			isa = PBXGroup;
 			children = (
+				02D466F31F5DC45700E3C302 /* resource */,
 				02D466B01F597F1100E3C302 /* business */,
 				02D466AF1F597F0700E3C302 /* service */,
 				02D466AE1F597EFE00E3C302 /* controller */,
@@ -246,6 +247,13 @@
 				02D466E81F5D6EED00E3C302 /* abasTableViewCell.xib */,
 			);
 			path = abas;
+			sourceTree = "<group>";
+		};
+		02D466F31F5DC45700E3C302 /* resource */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = resource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
