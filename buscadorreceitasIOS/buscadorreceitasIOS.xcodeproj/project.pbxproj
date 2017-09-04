@@ -81,6 +81,14 @@
 		02D467331F5DF50700E3C302 /* AbasTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 02D4670E1F5DF3CE00E3C302 /* AbasTableViewCell.xib */; };
 		02D467341F5DF50B00E3C302 /* AbasTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D4670D1F5DF3CE00E3C302 /* AbasTableViewCell.swift */; };
 		02D467351F5DF50C00E3C302 /* AbasTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D4670D1F5DF3CE00E3C302 /* AbasTableViewCell.swift */; };
+		02D4673C1F5DFD7F00E3C302 /* pizza.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 02D4673B1F5DFD7F00E3C302 /* pizza.jpg */; };
+		02D4673D1F5DFD7F00E3C302 /* pizza.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 02D4673B1F5DFD7F00E3C302 /* pizza.jpg */; };
+		02D4673E1F5DFD7F00E3C302 /* pizza.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 02D4673B1F5DFD7F00E3C302 /* pizza.jpg */; };
+		02D4673F1F5DFD7F00E3C302 /* pizza.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 02D4673B1F5DFD7F00E3C302 /* pizza.jpg */; };
+		02D467421F5DFF4E00E3C302 /* ExtensionShadowRadius.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D467411F5DFF4E00E3C302 /* ExtensionShadowRadius.swift */; };
+		02D467431F5DFF4E00E3C302 /* ExtensionShadowRadius.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D467411F5DFF4E00E3C302 /* ExtensionShadowRadius.swift */; };
+		02D467441F5DFF4E00E3C302 /* ExtensionShadowRadius.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D467411F5DFF4E00E3C302 /* ExtensionShadowRadius.swift */; };
+		02D467451F5DFF4E00E3C302 /* ExtensionShadowRadius.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D467411F5DFF4E00E3C302 /* ExtensionShadowRadius.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -131,6 +139,8 @@
 		02D4670E1F5DF3CE00E3C302 /* AbasTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AbasTableViewCell.xib; sourceTree = "<group>"; };
 		02D467301F5DF4C900E3C302 /* buscadorreceitasIOS_ Teste.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "buscadorreceitasIOS_ Teste.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		02D467311F5DF4C900E3C302 /* buscadorreceitasIOS copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "buscadorreceitasIOS copy-Info.plist"; path = "/Users/gilsonsantos/Documents/Gilson/buscadorReceitas/buscadorReceitasIOS/buscadorreceitasIOS/buscadorreceitasIOS copy-Info.plist"; sourceTree = "<absolute>"; };
+		02D4673B1F5DFD7F00E3C302 /* pizza.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pizza.jpg; sourceTree = "<group>"; };
+		02D467411F5DFF4E00E3C302 /* ExtensionShadowRadius.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtensionShadowRadius.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -243,6 +253,7 @@
 		02D466AD1F597EF000E3C302 /* view */ = {
 			isa = PBXGroup;
 			children = (
+				02D467401F5DFF1F00E3C302 /* extension */,
 				02D466E51F5D6B4100E3C302 /* xib's */,
 				02D466DD1F5D6A9300E3C302 /* inicio.storyboard */,
 			);
@@ -292,6 +303,7 @@
 		02D466F31F5DC45700E3C302 /* resource */ = {
 			isa = PBXGroup;
 			children = (
+				02D4673B1F5DFD7F00E3C302 /* pizza.jpg */,
 			);
 			path = resource;
 			sourceTree = "<group>";
@@ -303,6 +315,14 @@
 				02D467061F5DE9F300E3C302 /* FavoritosTableViewCell.xib */,
 			);
 			path = favoritos;
+			sourceTree = "<group>";
+		};
+		02D467401F5DFF1F00E3C302 /* extension */ = {
+			isa = PBXGroup;
+			children = (
+				02D467411F5DFF4E00E3C302 /* ExtensionShadowRadius.swift */,
+			);
+			path = extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -432,6 +452,7 @@
 			files = (
 				02D4670A1F5DE9F300E3C302 /* FavoritosTableViewCell.xib in Resources */,
 				02D467101F5DF3CE00E3C302 /* AbasTableViewCell.xib in Resources */,
+				02D4673C1F5DFD7F00E3C302 /* pizza.jpg in Resources */,
 				02D466871F597D4C00E3C302 /* LaunchScreen.storyboard in Resources */,
 				02D466841F597D4C00E3C302 /* Assets.xcassets in Resources */,
 				02D466DE1F5D6A9300E3C302 /* inicio.storyboard in Resources */,
@@ -444,6 +465,7 @@
 			files = (
 				02D4670B1F5DE9F300E3C302 /* FavoritosTableViewCell.xib in Resources */,
 				02D466DF1F5D6A9300E3C302 /* inicio.storyboard in Resources */,
+				02D4673D1F5DFD7F00E3C302 /* pizza.jpg in Resources */,
 				02D467321F5DF50700E3C302 /* AbasTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -454,6 +476,7 @@
 			files = (
 				02D4670C1F5DE9F300E3C302 /* FavoritosTableViewCell.xib in Resources */,
 				02D466E01F5D6A9300E3C302 /* inicio.storyboard in Resources */,
+				02D4673E1F5DFD7F00E3C302 /* pizza.jpg in Resources */,
 				02D467331F5DF50700E3C302 /* AbasTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -464,6 +487,7 @@
 			files = (
 				02D467281F5DF4C900E3C302 /* FavoritosTableViewCell.xib in Resources */,
 				02D467291F5DF4C900E3C302 /* AbasTableViewCell.xib in Resources */,
+				02D4673F1F5DFD7F00E3C302 /* pizza.jpg in Resources */,
 				02D4672A1F5DF4C900E3C302 /* LaunchScreen.storyboard in Resources */,
 				02D4672B1F5DF4C900E3C302 /* Assets.xcassets in Resources */,
 				02D4672C1F5DF4C900E3C302 /* inicio.storyboard in Resources */,
@@ -478,6 +502,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				02D466821F597D4C00E3C302 /* buscadorreceitasIOS.xcdatamodeld in Sources */,
+				02D467421F5DFF4E00E3C302 /* ExtensionShadowRadius.swift in Sources */,
 				02D466E21F5D6AD400E3C302 /* InicioTableViewController.swift in Sources */,
 				02D466CE1F5986BC00E3C302 /* TipoCardapio.swift in Sources */,
 				02D466D61F5986E600E3C302 /* RetornoServico.swift in Sources */,
@@ -502,6 +527,7 @@
 				02D466C71F5986A300E3C302 /* Produto.swift in Sources */,
 				02D466BB1F59824E00E3C302 /* Geladeira.swift in Sources */,
 				02D466CF1F5986BC00E3C302 /* TipoCardapio.swift in Sources */,
+				02D467431F5DFF4E00E3C302 /* ExtensionShadowRadius.swift in Sources */,
 				02D467081F5DE9F300E3C302 /* FavoritosTableViewCell.swift in Sources */,
 				02D466D71F5986E600E3C302 /* RetornoServico.swift in Sources */,
 				02D466E31F5D6AD400E3C302 /* InicioTableViewController.swift in Sources */,
@@ -523,6 +549,7 @@
 				02D466C81F5986A300E3C302 /* Produto.swift in Sources */,
 				02D466BC1F59824E00E3C302 /* Geladeira.swift in Sources */,
 				02D466D01F5986BC00E3C302 /* TipoCardapio.swift in Sources */,
+				02D467441F5DFF4E00E3C302 /* ExtensionShadowRadius.swift in Sources */,
 				02D467091F5DE9F300E3C302 /* FavoritosTableViewCell.swift in Sources */,
 				02D466D81F5986E600E3C302 /* RetornoServico.swift in Sources */,
 				02D466E41F5D6AD400E3C302 /* InicioTableViewController.swift in Sources */,
@@ -542,6 +569,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				02D467171F5DF4C900E3C302 /* buscadorreceitasIOS.xcdatamodeld in Sources */,
+				02D467451F5DFF4E00E3C302 /* ExtensionShadowRadius.swift in Sources */,
 				02D467181F5DF4C900E3C302 /* InicioTableViewController.swift in Sources */,
 				02D467191F5DF4C900E3C302 /* TipoCardapio.swift in Sources */,
 				02D4671A1F5DF4C900E3C302 /* RetornoServico.swift in Sources */,
