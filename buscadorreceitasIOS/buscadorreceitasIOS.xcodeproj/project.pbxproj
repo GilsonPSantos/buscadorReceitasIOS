@@ -55,6 +55,8 @@
 		02D4670A1F5DE9F300E3C302 /* FavoritosTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 02D467061F5DE9F300E3C302 /* FavoritosTableViewCell.xib */; };
 		02D4670B1F5DE9F300E3C302 /* FavoritosTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 02D467061F5DE9F300E3C302 /* FavoritosTableViewCell.xib */; };
 		02D4670C1F5DE9F300E3C302 /* FavoritosTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 02D467061F5DE9F300E3C302 /* FavoritosTableViewCell.xib */; };
+		02D4670F1F5DF3CE00E3C302 /* AbasTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D4670D1F5DF3CE00E3C302 /* AbasTableViewCell.swift */; };
+		02D467101F5DF3CE00E3C302 /* AbasTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 02D4670E1F5DF3CE00E3C302 /* AbasTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -101,6 +103,8 @@
 		02D466E11F5D6AD400E3C302 /* InicioTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InicioTableViewController.swift; sourceTree = "<group>"; };
 		02D467051F5DE9F300E3C302 /* FavoritosTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoritosTableViewCell.swift; sourceTree = "<group>"; };
 		02D467061F5DE9F300E3C302 /* FavoritosTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FavoritosTableViewCell.xib; sourceTree = "<group>"; };
+		02D4670D1F5DF3CE00E3C302 /* AbasTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AbasTableViewCell.swift; sourceTree = "<group>"; };
+		02D4670E1F5DF3CE00E3C302 /* AbasTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AbasTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -244,6 +248,8 @@
 		02D466E61F5D6CBB00E3C302 /* abas */ = {
 			isa = PBXGroup;
 			children = (
+				02D4670D1F5DF3CE00E3C302 /* AbasTableViewCell.swift */,
+				02D4670E1F5DF3CE00E3C302 /* AbasTableViewCell.xib */,
 			);
 			path = abas;
 			sourceTree = "<group>";
@@ -372,6 +378,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				02D4670A1F5DE9F300E3C302 /* FavoritosTableViewCell.xib in Resources */,
+				02D467101F5DF3CE00E3C302 /* AbasTableViewCell.xib in Resources */,
 				02D466871F597D4C00E3C302 /* LaunchScreen.storyboard in Resources */,
 				02D466841F597D4C00E3C302 /* Assets.xcassets in Resources */,
 				02D466DE1F5D6A9300E3C302 /* inicio.storyboard in Resources */,
@@ -417,6 +424,7 @@
 				02D466CA1F5986AB00E3C302 /* Receita.swift in Sources */,
 				02D466B61F59824000E3C302 /* Favorito.swift in Sources */,
 				02D466D21F5986C500E3C302 /* Usuario.swift in Sources */,
+				02D4670F1F5DF3CE00E3C302 /* AbasTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
