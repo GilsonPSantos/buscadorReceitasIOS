@@ -37,7 +37,7 @@ class InicioTableViewController: UITableViewController {
     }
 
     override func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "abasTableViewCell") as! abasTableViewCell
+        let cell = tableView.dequeueReusableCell(withIdentifier: "AbasTableViewCell") as! AbasTableViewCell
         return cell
 
     }
@@ -51,8 +51,8 @@ class InicioTableViewController: UITableViewController {
  
     
     func registerNib(){
-        let nibAbas = UINib(nibName: "abasTableViewCell", bundle: nil)
-        self.tableView.register(nibAbas, forCellReuseIdentifier: "abasTableViewCell")
+        let nibAbas = UINib(nibName: "AbasTableViewCell", bundle: nil)
+        self.tableView.register(nibAbas, forCellReuseIdentifier: "AbasTableViewCell")
     }
     
 
