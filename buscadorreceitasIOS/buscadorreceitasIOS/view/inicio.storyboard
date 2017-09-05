@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="e87-xg-xX1">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="Q5p-Iz-waF">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -9,60 +9,85 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Inicio Table View Controller-->
-        <scene sceneID="DTB-qp-Nev">
+        <!--Geladeira View Controller-->
+        <scene sceneID="ztu-AW-arm">
             <objects>
-                <tableViewController id="t7Z-IE-rS6" customClass="InicioTableViewController" customModule="buscadorreceitasIOS" customModuleProvider="target" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="Vb2-9O-WYs">
+                <viewController id="0FP-9q-OQ2" customClass="GeladeiraViewController" customModule="buscadorreceitasIOS" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="9OF-Bc-CUG"/>
+                        <viewControllerLayoutGuide type="bottom" id="1QE-on-UEo"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="73L-L6-OZD">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="LPo-U8-hJ1">
-                                <rect key="frame" x="0.0" y="28" width="375" height="44"/>
-                                <autoresizingMask key="autoresizingMask"/>
-                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="LPo-U8-hJ1" id="92x-7F-uaT">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43"/>
-                                    <autoresizingMask key="autoresizingMask"/>
-                                </tableViewCellContentView>
-                            </tableViewCell>
-                        </prototypes>
-                        <connections>
-                            <outlet property="dataSource" destination="t7Z-IE-rS6" id="UU5-X2-Nbh"/>
-                            <outlet property="delegate" destination="t7Z-IE-rS6" id="1Lg-dp-Ua4"/>
-                        </connections>
-                    </tableView>
-                    <navigationItem key="navigationItem" id="BGc-aK-cBt"/>
-                </tableViewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="mjE-B9-zEU" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yTg-io-RXJ">
+                                <rect key="frame" x="0.0" y="590" width="375" height="77"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F5L-QU-U6V">
+                                        <rect key="frame" x="41" y="22" width="32" height="32"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" image="icon-geladeira-off"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="boolean" keyPath="shadow" value="YES"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QUw-sC-s2X">
+                                        <rect key="frame" x="138" y="22" width="32" height="32"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" image="icon-geladeira-on"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="boolean" keyPath="shadow" value="YES"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" red="0.0" green="0.47843137254901957" blue="0.61960784313725492" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="77" id="cc1-gn-cjw"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="shadow" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.94441731770833337" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="yTg-io-RXJ" firstAttribute="leading" secondItem="73L-L6-OZD" secondAttribute="leading" id="3XX-UV-WKO"/>
+                            <constraint firstItem="1QE-on-UEo" firstAttribute="top" secondItem="yTg-io-RXJ" secondAttribute="bottom" id="8VM-En-RA1"/>
+                            <constraint firstAttribute="trailing" secondItem="yTg-io-RXJ" secondAttribute="trailing" id="yP3-Fn-vdR"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="Vlz-RJ-lgv"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="UBh-C2-oYP" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="903.20000000000005" y="143.47826086956522"/>
+            <point key="canvasLocation" x="1375.2" y="-259.52023988005999"/>
         </scene>
         <!--Navigation Controller-->
-        <scene sceneID="bzJ-3H-Bjn">
+        <scene sceneID="c87-OC-SXy">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="e87-xg-xX1" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Q5p-Iz-waF" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="2bm-Zx-vzE">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="P6S-gI-QaN">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
-                        <color key="barTintColor" red="1" green="0.52549019607843139" blue="0.019607843137254902" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="barTintColor" red="0.0" green="0.47843137254901957" blue="0.61960784313725492" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <userDefinedRuntimeAttributes>
                             <userDefinedRuntimeAttribute type="boolean" keyPath="shadow" value="YES"/>
                         </userDefinedRuntimeAttributes>
                     </navigationBar>
                     <nil name="viewControllers"/>
-                    <toolbar key="toolbar" opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="abS-Ri-x3U">
-                        <rect key="frame" x="0.0" y="623" width="375" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </toolbar>
                     <connections>
-                        <segue destination="t7Z-IE-rS6" kind="relationship" relationship="rootViewController" id="Lqt-MV-9cY"/>
+                        <segue destination="0FP-9q-OQ2" kind="relationship" relationship="rootViewController" id="mcP-6L-Si8"/>
                     </connections>
                 </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="KoE-R6-q0E" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2fb-1b-Ebt" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-36" y="143.47826086956522"/>
+            <point key="canvasLocation" x="436" y="-259.52023988005999"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="icon-geladeira-off" width="25" height="25"/>
+        <image name="icon-geladeira-on" width="25" height="25"/>
+    </resources>
 </document>
